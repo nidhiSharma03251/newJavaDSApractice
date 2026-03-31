@@ -7,9 +7,12 @@ public class friendsPairing {
         }
         int single = pairingFriends(n-1);
         int pair = (n-1)*pairingFriends(n-2);
+        // System.out.println(single);
+        // System.out.println(pair);
+        // System.out.println();
         return single+pair;
     }
     public static void main(String args[]){
-        System.out.println(pairingFriends(3));
+        System.out.println(pairingFriends(6));
     }
 }
