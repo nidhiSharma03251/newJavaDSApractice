@@ -2,7 +2,6 @@ public class practiceQuestion1 {
 
     public static void findIndex(int arr[], int n, int i,int key){
         if (i==n){
-            System.out.println();
             return;
         }
 
