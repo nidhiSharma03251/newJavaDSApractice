@@ -1,4 +1,4 @@
-package recursion;
+
 
 public class tilingProblem {
     public static int recurTiling(int n){

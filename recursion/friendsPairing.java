@@ -1,5 +1,3 @@
-package recursion;
-
 public class friendsPairing {
     public static int pairingFriends(int n){
         if (n==1 || n==2){

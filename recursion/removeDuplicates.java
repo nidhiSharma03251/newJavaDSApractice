@@ -1,5 +1,3 @@
-package recursion;
-
 public class removeDuplicates {
     public static void removeDup(String str,int i, StringBuilder newStr, Boolean map[]){
         if (i==str.length()){
