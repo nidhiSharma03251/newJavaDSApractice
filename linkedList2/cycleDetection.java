@@ -1,4 +1,4 @@
-package linkedList2;
+// package linkedList2;
 public class cycleDetection {
     static class Node{
         int data;
