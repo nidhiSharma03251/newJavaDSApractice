@@ -29,19 +29,21 @@ public class practiceQuestion1 {
     public static boolean checkPalindromeUsingStack(Node head){
         Stack<Character> s = new Stack<>();
         Node temp=head;
-        StringBuilder before = new StringBuilder();
+
         while(temp!=null){
             s.push(temp.data);
-            before.append(temp.data);
             temp=temp.next;
         }
+        temp=head;
 
-        StringBuilder after = new StringBuilder();
-        while(!s.isEmpty()){
-            after.append(s.pop());
+        while(temp!=null){
+            if(temp.data != s.pop()){
+                return false;
+            }
+            temp=temp.next;
         }
         
-        return before.toString().equals(after.toString());   
+        return true;
     }
     public static void main(String args[]){
         practiceQuestion1 ll = new practiceQuestion1();
