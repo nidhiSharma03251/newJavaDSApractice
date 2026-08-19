@@ -51,7 +51,7 @@ public class practiceQuestion1 {
         ll.addNode('B');
         ll.addNode('C');
         ll.addNode('B');
-        ll.addNode('A');
+        ll.addNode('D');
 
         if(checkPalindromeUsingStack(head)){
             System.out.println("Yes its palindrome");
